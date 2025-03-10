@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<body>
+    <h1>To Do List</h1>
+    
+    <form>
+        <label for="title">Task Title</label>
+        <input type="text" id="title">
+        <br><br>
+        <label for="status">Task status</label>
+        <input type="text" id="status">
+        <br><br>
+        <label>Start Date</label>
+        <input type="date" id="sdate">
+        <br><br>
+        <label>End Date</label>
+        <input type="date" id="edate">
+        <br><br>
+        
+        <button onclick="SaveData(event)">Save</button>
+    </form>
+
+    <h2>Show Tasks</h2>
+    <div id="data"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
