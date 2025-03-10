@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.container {
+    max-width: 450px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Styling for task cards */
+.task-card {
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    width: 250px;
+    min-height: 150px;
+    flex: 1 1 250px;
+}
+/* Flexbox container for tasks */
+.task-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
